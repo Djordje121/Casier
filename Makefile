@@ -1,6 +1,6 @@
-#simple make file for cash compalation
+#simple make file for casier program compalation
 
-# build an executable named cash from cash.c
+# build an executable named casier from casier.c
 .PHONY: all
 all: casier
 
