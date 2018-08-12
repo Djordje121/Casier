@@ -1,6 +1,7 @@
-
+// implements logic for handeling user input 
 #include "system.h"
 
+// inherit.doc <see = "system.h"/>
 char *getstr()
 {
    char *input = malloc(sizeof(char) * MIN_BYTES);
@@ -22,7 +23,7 @@ char *getstr()
    return input;
 }
 
-
+// inherit.doc <see = "system.h"/>
 float get_float()
 {
     float n = 0;

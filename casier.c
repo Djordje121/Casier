@@ -40,10 +40,8 @@ int main(void)
     return 0;
 }
 
-/**
- * params: struct coin pointer
- * params: 
- */
+
+ // inherit.doc <see = "casier.h"/>
 Coin *get_change(Coin *coins, int index, int cents)
 {    
     if(cents == 0 || coins == NULL)

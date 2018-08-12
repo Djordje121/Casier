@@ -1,3 +1,4 @@
+// custom library used for handeling user input
 
 #ifndef _SYSTEM_H
 #define _SYSTEM_H
@@ -13,14 +14,14 @@
 /**
  * prompts user for a input line
  * stores input line as string in heap memory
- * returns char pointer to memory locaiton of stored input
+ * <returns> char pointer to memory locaiton of stored input </returns>
  */
 char *getstr(void);
 
 /**
  * prompts user for a input line 
- * converts user input to float point number and stores value in stack memory
- * if convertion is sucssefull returns float value, else returns 0
+ * converts user input to float point number and stores value in stack memory\
+ * <returns> if convertion is sucssefull returns float value, else returns 0 </returns>
  */
 float get_float(void);
 
