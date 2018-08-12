@@ -1,0 +1,11 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "cmath": "c",
+        "typeinfo": "c",
+        "system.h": "c",
+        "type_traits": "c",
+        "stdlib.h": "c",
+        "casier.h": "c"
+    }
+}
